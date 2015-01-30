@@ -1,0 +1,92 @@
+html {
+	background-color:#ccc;
+}
+
+h1,h2  {
+	font-weight: bold;
+	font-size: 5rem;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: 'Sigmar One', cursive;
+	line-height:1.5;
+	text-align: center;
+}
+
+	ol {
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+
+	list-style-type: none;
+	padding: 0;
+}
+
+p {
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+blockquote {
+	font-style:italic;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+figcaption {
+	font-style:italic ;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 2rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+dl {
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	text-align: right;
+}
+
+dd {
+	font-style: italic;
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	text-align: right;}
+
+a {
+		color: red;
+}
+
+a:hover {
+		color: purple;
+}
+
+.merc {
+	color: white;
+}
+
+.bars {
+	color: blue;
+}
+
+.cite {
+	text-align: right;
+	}
+
+em {
+	color: green;
+}
