@@ -14,7 +14,7 @@ header {
 }
 
 
-h1,h2  {
+h1 {
 	font-weight: bold;
 	font-size: 5rem;
 	font-style: italic;
@@ -22,6 +22,16 @@ h1,h2  {
 	font-family: 'Sigmar One', cursive;
 	line-height:1.5;
 	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 5rem;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: 'Sigmar One', cursive;
+	line-height:1.5;
+	text-align: left;
 }
 
 
