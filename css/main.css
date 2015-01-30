@@ -2,13 +2,19 @@ html {
 	background-color:#ccc;
 }
 
+
 body {
 margin: 0;
 }
+
+main {
+	margin: 1em;
+}
+
 header {
 	background-color: #450000;
 	padding: 3em 5em 3em 5em;
-	margin: 2;
+	margin: 0em;
 	text-align: center;
 	text-decoration: none;
 }
@@ -18,7 +24,7 @@ h1 {
 	font-weight: bold;
 	font-size: 5rem;
 	font-style: italic;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: 'Sigmar One', cursive;
 	line-height:1.5;
 	text-align: center;
@@ -28,30 +34,29 @@ h2 {
 	font-weight: bold;
 	font-size: 5rem;
 	font-style: italic;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: 'Sigmar One', cursive;
 	line-height:1.5;
 	text-align: left;
 }
 
-
 nav li {
 	background-color: #aa0000;
 	text-align: center;
 	margin: 0;
-	padding: 0.5 1 0.5 0.5;
+	padding: 0.5em 1em 0.5em 0.5em;
 	border: solid;
 	border-radius: 24px;
-	display: inline;
+	display: inline-block;
 }
+
 	ol {
 	line-height:1.5;
 	font-weight: bold;
 	font-size: 1rem;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-
-	list-style-type: none;
+	list-style-type: lower-roman;
 	padding: 0;
 }
 
@@ -96,7 +101,7 @@ dl {
 	font-size: 1rem;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-	text-align: right;
+	text-align: left;
 }
 
 dd {
@@ -106,7 +111,10 @@ dd {
 	font-size: 1rem;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-	text-align: right;}
+	text-align: left;
+}
+
+
 
 a {
 		color: red;
@@ -136,6 +144,8 @@ em {
 	background-color: #aa0000;
 	text-align: left;
 	text-decoration:none;
+	margin: 1em;
+	text-decoration: none;
 
 }
 
